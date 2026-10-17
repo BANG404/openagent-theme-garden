@@ -1,8 +1,8 @@
-# Garden
+# Garden Emerald Theme
 
-Garden: maia / olive / emerald / violet
+An olive-gray theme with emerald accents, violet charts, 14px text, and large rounded controls; supports light and dark modes.
 
-Install this directory or its release archive in OpenAgent Plugins, then select Garden in General → Appearance. Light/dark and system appearance are supported. User appearance overrides apply last.
+Install this directory or its release archive in OpenAgent Plugins, then select Garden Emerald Theme in General → Appearance. Light/dark and system appearance are supported. User appearance overrides apply last.
 
 Requires the OpenAgent theme-fonts-v1 capability. This is a Svelte/Bits UI adaptation of the upstream visual grammar; React component libraries and icon libraries are not switched by a theme. Fonts and licenses are bundled in this plugin under fonts/ and work offline; CJK glyphs use system fallbacks.
 
