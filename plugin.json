@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "openagent-theme-garden",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Garden: maia / olive / emerald / violet",
   "license": "MIT",
   "repository": "https://github.com/BANG404/openagent-theme-garden",
@@ -22,7 +22,8 @@
           "max": 1
         },
         "features": [
-          "theme-v1"
+          "theme-v1",
+          "theme-fonts-v1"
         ]
       },
       "theme": {
@@ -116,7 +117,21 @@
           "--menu-foreground": "var(--popover-foreground)",
           "--menu-accent": "var(--primary)",
           "--menu-accent-foreground": "var(--primary-foreground)"
-        }
+        },
+        "fonts": [
+          {
+            "family": "Figtree Variable",
+            "entry": "fonts/figtree.woff2",
+            "weight": "100 900",
+            "style": "normal"
+          },
+          {
+            "family": "Lora Variable",
+            "entry": "fonts/lora.woff2",
+            "weight": "100 900",
+            "style": "normal"
+          }
+        ]
       },
       "i18n": {
         "supported_locales": [
